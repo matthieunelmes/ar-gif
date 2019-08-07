@@ -10,7 +10,10 @@
 <body style="overflow: hidden; margin:0;">
     <ar-scene>
 		<ar-marker patt="pattern-purp.patt" content="pica.gif"></ar-marker>
-		<ar-marker position="1 1 1" patt="ar.patt" content="dancey-smol.gif"></ar-marker>
+		<ar-marker patt="ar.patt">
+			<ar-content src="dancey-smol.gif" scale="1.5 1.5" position="1 1 1" rotation="0 0 0">
+            </ar-content>
+		</ar-marker>
 	</ar-scene>
 
 </body>
